@@ -1,0 +1,17 @@
+{
+  "name": "smartcrop",
+  "version": "1.0.0",
+  "description": "SmartCrop is a web-based platform designed to assist small-scale farmers in managing their agricultural activities efficiently and sustainably. By integrating technology with sustainable farming practices, SmartCrop aims to contribute to SDG Goal 2: Zero Hunger and SDG Goal 13: Climate Action.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5"
+  }
+}
