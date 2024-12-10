@@ -51,3 +51,26 @@ section h2 {
     font-size: 1.5rem;
     color: #333;
 }
+
+
+#forecastContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .forecast-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .forecast-card h4 {
+    margin: 0;
+    color: #4CAF50;
+  }
+  
